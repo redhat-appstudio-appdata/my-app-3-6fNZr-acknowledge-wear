@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-u0ur
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:6fNZr-devfile-sample-python-basic-u0ur
+      - image: quay.io/redhat-appstudio/user-workload@sha256:94cf59b5f96a49e2fef0210ddc29e3b6b188cd26ba313a6eea5818c46786f5a1
         name: my-python
         ports:
         - containerPort: 8081
